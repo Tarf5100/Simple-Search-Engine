@@ -74,15 +74,11 @@
         <pre><code>git clone https://github.com/Tarf5100/simple-search-engine.git
 cd simple-search-engine</code></pre>
     </li>
-    <li>Run the program:
-        <pre><code>python main.py</code></pre>
+    <li>Compile the Java files:
+        <pre><code>javac src/*.java</code></pre>
     </li>
-    <li>Follow the menu to:
-        <ul>
-            <li>Perform Boolean retrieval.</li>
-            <li>Perform ranked retrieval.</li>
-            <li>View indexed documents and tokens.</li>
-        </ul>
+    <li>Run the program:
+        <pre><code>java src.Main</code></pre>
     </li>
 </ol>
 
@@ -91,17 +87,16 @@ cd simple-search-engine</code></pre>
 simple-search-engine/
 │
 ├── data/                  # Sample input data (CSV files)
-├── src/                   # Source code
-│   ├── indexing.py        # Functions for indexing documents
-│   ├── query_processor.py # Query processing and ranking
-│   ├── bst.py             # BST implementation
-│   └── utils.py           # Helper functions
+├── src/                   # Source code files
+│   ├── Indexing.java      # Functions for indexing documents
+│   ├── QueryProcessor.java # Query processing and ranking
+│   ├── BST.java           # BST implementation
+│   └── Utils.java         # Helper functions
 │
 ├── tests/                 # Unit tests
 ├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
+└── LICENSE                # License for the project
 </pre>
 
 <h2>Dependencies</h2>
-<p>Install required Python packages with:</p>
-<pre><code>pip install -r requirements.txt</code></pre>
+<p>Ensure you have Java Development Kit (JDK) 8 or higher installed.</p>
