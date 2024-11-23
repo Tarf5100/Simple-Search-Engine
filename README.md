@@ -84,3 +84,11 @@ cd simple-search-engine</code></pre>
 
 <h2>Dependencies</h2>
 <p>Ensure you have Java Development Kit (JDK) 8 or higher installed.</p>
+
+<h2>Team Members</h2>
+<ul>
+  <li>Tarfah Bin Moammar</li>
+  <li>Dalal Alyousef</li>
+ <li>Manal Alghanmi</li>
+</ul>
+
