@@ -89,6 +89,5 @@ cd simple-search-engine</code></pre>
 <ul>
   <li>Tarfah Bin Moammar</li>
   <li>Dalal Alyousef</li>
- <li>Manal Alghanmi</li>
+  <li>Manal Alghanmi</li>
 </ul>
-
