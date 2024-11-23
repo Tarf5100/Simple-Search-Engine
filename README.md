@@ -82,21 +82,5 @@ cd simple-search-engine</code></pre>
     </li>
 </ol>
 
-<h2>Folder Structure</h2>
-<pre>
-simple-search-engine/
-│
-├── data/                  # Sample input data (CSV files)
-├── src/                   # Source code files
-│   ├── Indexing.java      # Functions for indexing documents
-│   ├── QueryProcessor.java # Query processing and ranking
-│   ├── BST.java           # BST implementation
-│   └── Utils.java         # Helper functions
-│
-├── tests/                 # Unit tests
-├── README.md              # Project documentation
-└── LICENSE                # License for the project
-</pre>
-
 <h2>Dependencies</h2>
 <p>Ensure you have Java Development Kit (JDK) 8 or higher installed.</p>
